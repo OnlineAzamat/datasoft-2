@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="bg-gray-900 overflow-hidden">
       <Navbar />
       <Hero />
+      <About />
     </div>
   );
 }
