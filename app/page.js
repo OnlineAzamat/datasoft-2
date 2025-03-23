@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-gray-900 overflow-hidden">
+    <div className="bg-[#934895] overflow-hidden">
       <Navbar />
       <Hero />
       <div className="relative">
@@ -24,7 +24,6 @@ export default function Home() {
         <div className="gradient-04 z-0" />
         <WhatsNew />
       </div>
-      <World />
       <div className="relative">
         <Insights />
         <div className="gradient-04 z-0" />

@@ -17,14 +17,13 @@ const About = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       >
-        <TypingText title="| About Metaversus" textStyles="text-center" />
+        <TypingText title="| About Data Life" textStyles="text-center" />
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
           className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
         >
-          <span className='font-extrabold text-white'>Metaverse</span> is a new thing in the future, where you can ennjoy the virtual world by feeling like it's really real, you can feel what you feel in this metaverse world, because this is really the <span className='font-extrabold text-white'>madness of the metaverse</span> of today, using only <span className='font-extrabold text-white'>VR</span> devices you can easily explore the metaverse world you want, turn your dreams into reality. Let's <span className='font-extrabold text-white'>explore</span> the madness of the metaverse by scrolling down 
+          <span className='font-extrabold text-white'>DATA LIFE</span> is a training center that is a resident of <span className='font-extrabold text-white'>IT Park.</span> We are proud of our achievements and dedication to education in the field of information technology. Over the years, we have trained more than <span className='font-extrabold text-white'>1,500 graduates</span> who have successfully started their careers in various IT companies. Currently, we have more than <span className='font-extrabold text-white'>150 students</span> studying with us, striving to master modern technologies and achieve success in the IT field. We strive for constant growth and development, as well as to provide high-quality education in the field of information technology for all our students.
         </motion.p>
-
         <motion.img
           variants={fadeIn('up', 'tween', 0.3, 1)}
           src='/arrow-down.svg'

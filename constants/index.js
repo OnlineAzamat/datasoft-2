@@ -26,63 +26,85 @@ export const exploreWorlds = [
   },
 ];
 
+export const exploreCourses = [
+  {
+    id: 'course-1',
+    imgUrl: '/course-1.webp',
+    title: 'Android Development',
+  },
+  {
+    id: 'course-2',
+    imgUrl: '/course-2.webp',
+    title: 'Computer Literacy',
+  },
+  {
+    id: 'course-3',
+    imgUrl: '/course-3.webp',
+    title: 'Python Development',
+  },
+  {
+    id: 'course-4',
+    imgUrl: '/course-4.webp',
+    title: 'Frontend Development',
+  },
+  {
+    id: 'course-5',
+    imgUrl: '/course-5.webp',
+    title: 'Graphic design',
+  },
+];
+
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Our company offers high quality education',
+  'We offer a full range of IT courses: from programming and web design',
+  'Consultations on employment and resume writing.',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Purposefulness',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Focusing on achieving common goals helps the team stay motivated and productive.',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Respect',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Respect for the opinions, time, and work of other team members helps create a positive work environment.',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/aral.png',
+    title: 'Aral Found',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'В ходе рабочего визита команды ООО «Data Live Centre» была проведена встреча с компанией AZEL Systems, а также подписан договор о сотрудничестве.'
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/digital.png',
+    title: 'Digital Umbrella',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'Во время деловой поездки команды ООО «Data Live Centre» состоялась встреча с представителями компании Digital Umbrella, а также был подписан договор о сотрудничестве.',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/ultra.png',
+    title: 'Ultra Technologies',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'В ходе рабочего визита команды ООО «Data Live Centre» была проведена встреча с компанией «Ultra Technologies» а также подписан договор о сотрудничестве.',
   },
 ];
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
-  },
-  {
-    name: 'linkedin',
-    url: '/linkedin.svg',
-  },
-  {
     name: 'instagram',
     url: '/instagram.svg',
+    link: 'https://instagram.com/data_life_centre'
   },
   {
-    name: 'facebook',
-    url: '/facebook.svg',
+    name: 'telegram',
+    url: '/telegram.png',
+    link: 'https://t.me/datalifecentre'
   },
 ];
