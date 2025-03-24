@@ -19,7 +19,7 @@ export default function Footer() {
       <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
         <div className="flex items-center justify-between flex-wrap gap-5">
           <h4 className="font-bold md:text-[64px] text-[44px] text-white">Enter the DATA SOFT</h4>
-          <a href="https://datalife.uz" target="_blank">
+          <a href="https://forms.gle/cbLp8wa77entY43z5" target="_blank" className="no-underline">
             <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]">
               <Image src="/headset.svg" alt="headset" width={24} height={24} className="w-[24px] h-[24px] object-contain" />
               <span className="font-normal text-[16px] text-white">DATASOFT</span>

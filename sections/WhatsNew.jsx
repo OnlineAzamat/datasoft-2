@@ -7,6 +7,9 @@ import { staggerContainer, fadeIn, planetVariants } from '@/utils/motion';
 import { TypingText, TitleText } from '../components/CustomTexts';
 import { newFeatures } from '@/constants';
 import { NewFeatures } from '@/components/NewFeatures';
+import { CCarousel, CCarouselItem } from '@coreui/react';
+
+import '@coreui/coreui/dist/css/coreui.min.css'
 
 export const WhatsNew = () => {
   return (
@@ -25,16 +28,17 @@ export const WhatsNew = () => {
         >
           <TypingText title="| Team" />
           <TitleText title={<>Our Team Values</>} />
-          <div className='mt-[48px] flex flex-wrap justify-between gap-[24px]'>
+          <CCarousel className='mt-[48px] min-h-[270px] flex flex-wrap justify-between gap-[24px]' interval={5000}>
             {
               newFeatures.map((feature) => (
-                <NewFeatures 
-                  key={feature.title}
-                  {...feature}
-                />
+                <CCarouselItem className="flex-1 flex flex-col w-full" key={feature.title}>
+                  <NewFeatures 
+                    {...feature}
+                  />
+                </CCarouselItem>
               ))
             }
-          </div>
+          </CCarousel>
         </motion.div>
         <motion.div
           variants={planetVariants('right')}

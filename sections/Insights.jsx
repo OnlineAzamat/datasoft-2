@@ -18,7 +18,7 @@ export const Insights = () => {
         viewport={{ once: 'false', amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| Patners" textStyles="text-center" />
+        <TypingText title="| Partners" textStyles="text-center" />
         <TitleText title="Data Soft's partners" textStyles="text-center" />
         <div className="mt-[50px] flex flex-col gap-[30px]">
           {insights.map((insight, index) => (

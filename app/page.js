@@ -6,7 +6,6 @@ import { GetStarted } from "@/sections/GetStarted";
 import { WhatsNew } from "@/sections/WhatsNew";
 import { Feedback } from "@/sections/Feedback";
 import { Insights } from "@/sections/Insights";
-import { World } from "@/sections/World";
 import Footer from "@/components/Footer";
 
 export default function Home() {
