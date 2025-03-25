@@ -28,7 +28,7 @@ export const WhatsNew = () => {
         >
           <TypingText title="| Team" />
           <TitleText title={<>Our Team Values</>} />
-          <CCarousel className='mt-[48px] min-h-[270px] flex flex-wrap justify-between gap-[24px]' interval={5000}>
+          <CCarousel className='mt-[48px] min-h-[270px] border-4 border-secondary-white rounded-3xl flex flex-wrap justify-between gap-[24px]' interval={5000} controls>
             {
               newFeatures.map((feature) => (
                 <CCarouselItem className="flex-1 flex flex-col w-full" key={feature.title}>

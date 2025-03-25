@@ -112,8 +112,6 @@ export const insights = [
   {
     imgUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Emblem_of_Karakalpakstan.svg/330px-Emblem_of_Karakalpakstan.svg.png',
     title: 'Qaraqalpaqstan Respublikası shańaraq hám hayal-qızlar komiteti',
-    subtitle:
-        'womansoul.uz - веб платформасы Hayal-qızlar ushın psixologiyalıq járdem Qollap-quwatlaw, túsiniw hám qıyınshılıqlardı jeńiw hám ishki kúshti júzege shıǵarıw ushın usıllar',
     link: 'https://womansoul.uz/'
   }
 ];
