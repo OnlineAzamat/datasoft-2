@@ -31,26 +31,31 @@ export const exploreCourses = [
     id: 'course-1',
     imgUrl: '/course-1.webp',
     title: 'Android Development',
+    headset: 'android'
   },
   {
     id: 'course-2',
     imgUrl: '/course-2.webp',
     title: 'Computer Literacy',
+    headset: 'computer'
   },
   {
     id: 'course-3',
     imgUrl: '/course-3.webp',
     title: 'Python Development',
+    headset: 'python'
   },
   {
     id: 'course-4',
     imgUrl: '/course-4.webp',
     title: 'Frontend Development',
+    headset: 'frontend'
   },
   {
     id: 'course-5',
     imgUrl: '/course-5.webp',
     title: 'Graphic design',
+    headset: 'graphic'
   },
 ];
 
